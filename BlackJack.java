@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+//Play the computer in a game of BlackJack
 class Main
 {   public static int cardTotal( ArrayList<Integer> cards)
     {
