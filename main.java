@@ -97,7 +97,7 @@ class Main
         }
         return card1;
     }
-public static void main (String[] args)
+public static void BlackJack (String[] args)
 {
     System.out.println("Welcome to BlackJack\n");
     Scanner scan = new Scanner(System.in);
