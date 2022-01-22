@@ -22,9 +22,8 @@ int main(int argc, char *argv[])
     {
         cout << "Enter a Flight-path angle" << endl;
         cin >> userAngle;
-        if(angle.size()>1)
-            if(!isOrdered(angle))
-                reorder(angle, coefOfFlight);
+        if(!isOrdered(angle))
+            reorder(angle, coefOfFlight);
         coef = interpolation(userAngle, angle, coefOfFlight);
         cout << coef << endl << "Would you like to enter another flight-path angle" << endl;
         cin >> response;
